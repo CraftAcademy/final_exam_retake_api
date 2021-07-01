@@ -1,5 +1,5 @@
 class Service::IndexSerializer < ActiveModel::Serializer
-  attributes :id, :name, :description, :phone, :email, :address, :postcode, :website, :coords
+  attributes :id, :name, :description, :telephone, :email, :address, :postcode, :website, :coords
 
   def coords
     {
