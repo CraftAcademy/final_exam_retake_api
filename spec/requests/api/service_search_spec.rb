@@ -17,8 +17,8 @@ RSpec.describe 'POST /api/search/:q', type: %i[request search_request] do
            }
     end
 
-    it 'is expected to return return a 201 response' do
-      expect(response).to have_http_status 201
+    it 'is expected to return return a 200 response' do
+      expect(response).to have_http_status 200
     end
 
     it 'is expected to return 3 services' do
